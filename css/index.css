@@ -46,6 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* End of Reset */
 
 * {
     box-sizing: border-box;
@@ -54,6 +55,39 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.logo {
+    width: 100%;
+    margin: auto;
+}
+.logo img {
+    display: block;
+    width: 100%;
+    /* max-width: 157px; */
+    height: auto;
+    /* margin: auto; */
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    padding: 20px 2%;
 }
 
 h1, h2, h3, h4, h5 {
