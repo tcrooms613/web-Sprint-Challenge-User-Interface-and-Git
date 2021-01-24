@@ -64,10 +64,7 @@ header {
     display: flex;
     justify-content: flex-start;
 }
-.logo {
-    width: 100%;
-    margin: auto;
-}
+
 .logo img {
     display: block;
     width: 100%;
@@ -89,7 +86,9 @@ header nav a {
     color: black;
     padding: 20px 2%;
 }
-
+.hdr-img img {
+    margin-bottom: 2%;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
