@@ -217,3 +217,39 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.about {
+    padding: 2%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 1%;
+
+}
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-content article {
+    width: 46%;
+    margin: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+
+article img {
+    margin-bottom: 2%;
+}
+article p {
+    padding-bottom: 2%;
+}
+.learn-button {
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 35%;
+    padding: 3%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
