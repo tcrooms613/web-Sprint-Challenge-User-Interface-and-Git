@@ -58,7 +58,7 @@ html, body {
 }
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 .logo-container {
     display: flex;
@@ -70,14 +70,15 @@ header {
     width: 100%;
     /* max-width: 157px; */
     height: auto;
-    /* margin: auto; */
+    padding: 20px 2%;
 }
 
 header nav {
-    width: 60%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
+    padding: 20px 2%;
 }
 
 header nav a {
