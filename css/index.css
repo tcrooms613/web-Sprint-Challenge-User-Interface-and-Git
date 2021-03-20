@@ -73,7 +73,6 @@ header {
 .logo img {
     display: block;
     width: 100%;
-    /* max-width: 157px; */
     height: auto;
     padding: 20px 2%;
 }
@@ -171,6 +170,7 @@ p {
 .middle-content .boxes .four {
     background: coral;
 }
+
 .middle-content .boxes .five {
     background: crimson;
 }
